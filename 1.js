@@ -24,7 +24,6 @@ function main(){
     var Xuanzuo = document.getElementById('btnXuanzuo');
 
     if (buy !== null) {
-        console.log('123');
       var Buytext = buy.innerHTML;
       if (Buytext == '立即购买') {
         qiang()
@@ -33,7 +32,6 @@ function main(){
         document.location.reload()
       } 
     }else if(Xuanzuo !== null){
-        console.log('456');
         var Xuanzuotext = Xuanzuo.innerHTML;
         if (Xuanzuotext == '选座购买') {
           Xuanzuo.click()
@@ -42,7 +40,6 @@ function main(){
          document.location.reload()
         } 
       }else{
-        console.log('123456');
         document.location.reload()
       }
 }
@@ -58,6 +55,5 @@ function qiang() {
   document.getElementById('cartList').innerHTML = str;
   var bt = document.getElementById('btnBuyNow');
   bt.click();
-  
 }
 
