@@ -17,7 +17,7 @@ function main() {
   var Xuanzuo = document.getElementById('btnXuanzuo');
   if (buy !== null) {
     var Buytext = buy.innerHTML;
-    if (Buytext == '立即购买') {
+    if (Buytext == '立即购买' || ||Buytext == '立即预定') {
       qiang()
       return 1;
     } else {
