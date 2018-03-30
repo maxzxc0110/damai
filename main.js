@@ -1,6 +1,6 @@
 var performid = '8952708'; //日期ID
 var priceid = '11766587'; //价格ID
-var person = '2'; //人数，大麦网规定一张身份证最多购买两张票
+var person = '2'; //人数
 while (1) {
   var re = main();
   if (re == 1) {
