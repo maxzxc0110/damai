@@ -5,4 +5,4 @@
 * 1.日期ID (data-performid)
 * 2.价格ID (data-priceid）
 
-(此脚本抢不到周杰伦门票，请黄牛不要再加我了)
+
